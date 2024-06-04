@@ -1,0 +1,11 @@
+2024-02-24T14:24:39.984Z - Error: notNull Violation: Group.currency cannot be null
+2024-02-24T14:25:07.813Z - Error: Cannot add or update a child row: a foreign key constraint fails (`paycheck`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`createdByUserId`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+2024-02-24T14:26:13.094Z - Error: Cannot add or update a child row: a foreign key constraint fails (`paycheck`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`createdByUserId`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+2024-02-24T14:30:38.921Z - Error: Cannot add or update a child row: a foreign key constraint fails (`paycheck`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`createdByUserId`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+2024-02-24T14:31:16.100Z - Error: Cannot add or update a child row: a foreign key constraint fails (`paycheck`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`createdByUserId`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+2024-02-24T14:34:30.177Z - Error: Cannot add or update a child row: a foreign key constraint fails (`paycheck`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`createdByUserId`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+2024-02-24T14:39:06.546Z - Error: Cannot add or update a child row: a foreign key constraint fails (`paycheck`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`createdByUserId`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+2024-02-24T14:39:44.150Z - Error: Cannot add or update a child row: a foreign key constraint fails (`paycheck`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`createdByUserId`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+2024-02-24T14:41:02.809Z - Error: Cannot add or update a child row: a foreign key constraint fails (`paycheck`.`groups`, CONSTRAINT `groups_ibfk_1` FOREIGN KEY (`createdByUserId`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+2024-02-28T16:19:56.486Z - Error: Unknown column 'joined_at' in 'field list'
+2024-02-28T16:26:56.284Z - Error: Unknown column 'joined_at' in 'field list'
