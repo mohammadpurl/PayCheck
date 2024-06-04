@@ -491,6 +491,13 @@ exports.joinGroupUsingToken = async (req, res) => {
     }
 };
 exports.uploadImage = async (req, res) => {
-
-    console.log(req.file)
+    try {
+        console.log(req.file)
+        const image = req?.file
+        //find group with group Id and update group
+        
+    } catch (error) {
+        
+    }
+    
   }
