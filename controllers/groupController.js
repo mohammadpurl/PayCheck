@@ -494,8 +494,21 @@ exports.uploadImage = async (req, res) => {
     try {
         console.log(req.file)
         const image = req?.file
+        //Get info from request
+        const { groupId } = req.params;
         //find group with group Id and update group
+        const group = await Group.findByPk(groupId);
+
+        if (!group) {
+        return res.status(404).json({ error: 'Group not found' });
+        }
+
+        // Update the profile_image field
         
+
+        await group.update({ profile_image: image });
+
+        res.json(group);
     } catch (error) {
         
     }
